@@ -1,8 +1,8 @@
 import os
 import sys
 
-def check_reeboot():
-	return os.path.exist('/run/rebot-required')
+def check_reboot():
+	return os.path.exists('/run/rebot-required')
 
 def main():
 	if check_reboot():
