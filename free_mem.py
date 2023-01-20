@@ -2,7 +2,7 @@
 
 
 def main():
-	pass
+	"""Checks if sufficient memory is present."""
 
 
 main()
