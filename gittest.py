@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os
 import sys
 
@@ -10,6 +11,5 @@ def main():
 		sys.exit(1)
 	print('Everything is ok.')
 	sys.exit(0)
-
 
 main()
